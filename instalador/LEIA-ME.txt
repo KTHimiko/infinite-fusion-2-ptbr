@@ -1,0 +1,36 @@
+POKÉMON INFINITE FUSION 2 (HOENN) - TRADUÇÃO PT-BR
+Tradução fanmade e não oficial. Para Infinite Fusion: Hoenn 1.2.2.
+Baixe o jogo somente pelo Discord oficial: https://discord.gg/infinitefusion
+
+COMO INSTALAR
+-------------
+Feche o jogo antes de instalar.
+
+Windows:
+  1. Dê dois cliques em "Instalar (Windows).bat".
+  2. Escolha a pasta do jogo (a que tem InfiniteFusion2.exe).
+  3. Espere a mensagem "Tradução PT-BR instalada!".
+  Se aparecer o aviso do SmartScreen: "Mais informações" > "Executar assim mesmo".
+
+Linux / Steam Deck / macOS:
+  ./instalar.sh "/caminho/para/InfiniteFusion2"
+
+Manual:
+  Copie o conteúdo da pasta "payload" para dentro da pasta do jogo, substituindo os arquivos.
+
+NO JOGO
+-------
+Save novo: escolha "Português" quando o jogo perguntar o idioma.
+Save existente: tela de carregar > Language > Português.
+
+COMO DESINSTALAR
+----------------
+Windows: "Desinstalar (Windows).bat"
+Linux / Steam Deck / macOS: ./instalar.sh --desinstalar "/caminho/para/InfiniteFusion2"
+(Antes, troque o save para Language > English.)
+
+ATUALIZAÇÕES DO JOGO
+--------------------
+O "Update" do launcher e o INSTALL_OR_UPDATE.bat apagam a tradução.
+Depois de atualizar, rode o instalador de novo. Se a versão do jogo mudou,
+espere uma versão nova da tradução (o instalador não instala em outra versão).

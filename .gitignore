@@ -1,0 +1,5 @@
+dist/
+__pycache__/
+*.pyc
+extra_todo.json
+.venv/
