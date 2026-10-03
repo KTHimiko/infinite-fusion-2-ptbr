@@ -3000,3 +3000,12 @@ I... I don't think I can handle a fused Pokémon. Can we try to catch a differen
 L-Let's go in the tall grass...	V-vamos entrar no mato alto...	novo
 Just follow my orders and it'll all be fine!	É só seguir minhas ordens que vai dar tudo certo!	novo
 Here, I'll heal your Pokémon.	Aqui, vou curar seus Pokémon.	novo
+What would you like to do?	O que você gostaria de fazer?	script_mapa
+Which one do you want back?	Qual deles você quer de volta?	script_mapa
+Whoa! You got crazy good!	Uau! Você mandou muito bem!	script_mapa
+Ah, I still gotta get stronger!	Ah, ainda preciso ficar mais forte!	script_mapa
+Wow! That's great! You're pretty good!	Uau! Que incrível! Você manda muito bem!	script_mapa
+Yikes! You're better than I expected!	Caramba! Você é melhor do que eu esperava!	script_mapa
+Mauville City up ahead.	Mauville City logo à frente.	script_mapa
+Professor Birch's house	Casa do Professor Birch	script_mapa
+\PN's house	Casa de \PN	script_mapa

@@ -1462,3 +1462,4 @@ texto_script	{1} moved back in line so that it can go later next turn.\wtnp[30]	
 texto_script	{1} stole the Judge's attention from others!\wtnp[30]	{1} roubou dos outros a atenção do Juiz!\wtnp[30]
 texto_script	{1} can't appeal next turn!\wtnp[30]	{1} não pode se apresentar no próximo turno!\wtnp[30]
 texto_script	Toggle possession of the Berrydex	Ativar/desativar posse da Berrydex
+fala_derrota	Wow! That's great! You're pretty good!	Uau! Que incrível! Você manda muito bem!

@@ -4,7 +4,7 @@ Tradução fanmade para **Português do Brasil** do **Pokémon Infinite Fusion 2
 
 | | |
 |---|---|
-| **Versão da tradução** | 1.0.0 |
+| **Versão da tradução** | 1.1.0 |
 | **Versão do jogo** | Infinite Fusion: Hoenn **1.2.2** (base 6.8.2) |
 | **Plataformas** | Windows, Linux, Steam Deck, macOS (Wine) |
 | **Status** | Versão para testes públicos — reporte problemas! |
@@ -20,17 +20,17 @@ Tradução fanmade para **Português do Brasil** do **Pokémon Infinite Fusion 2
 | Traduzido | Mantido em inglês (de propósito) |
 |---|---|
 | Todos os diálogos da história, NPCs e missões (3.728 falas) | Nomes de Pokémon |
-| Falas dos treinadores antes e depois das batalhas (1.003) | Nomes de golpes |
-| Placas, TVs, reportagens, PokéChallenges, Bases Secretas, Concursos | Nomes de itens e habilidades |
+| Falas dos treinadores antes e depois das batalhas (1.004) | Nomes de golpes |
+| Placas, TVs, reportagens, PokéChallenges, Bases Secretas, Concursos | Nomes de itens, habilidades e fitas |
 | Menus, mensagens de batalha, bolsa, PC, loja, resumo do Pokémon | Nomes de lugares e personagens |
-| Descrições de itens, golpes e habilidades | Team Aqua, Team Magma, Gym Leader, Badge, Pokémon Center |
-| Descrições de roupas, chapéus e cabelos | Textos desenhados em imagens |
+| Pokédex completa: categorias e descrições, inclusive dos Pokémon de Hoenn | Team Aqua, Team Magma, Gym Leader, Badge, Pokémon Center |
+| Descrições de itens, golpes, habilidades e fitas | Textos desenhados em imagens |
+| Descrições de roupas, chapéus e cabelos | |
 
 Ainda em inglês (trabalho futuro):
 
-- Entradas da Pokédex dos Pokémon novos de Hoenn.
-- Cerca de 10 frases escritas direto nos scripts dos mapas (ex.: *"What would you like to do?"*).
-- Nomes dos Pokémon novos e alguns rótulos curtos de interface.
+- Alguns rótulos curtos de interface.
+- Algumas opções do menu de configurações e links da comunidade (ex.: *"Rival's nickname?"*, faixas de BST do modo aleatório).
 
 ---
 
@@ -41,7 +41,7 @@ Ainda em inglês (trabalho futuro):
 1. Tenha o **Pokémon Infinite Fusion 2 (Hoenn) 1.2.2** instalado, baixado do Discord oficial.
 2. **Feche o jogo.**
 3. (Recomendado) Faça uma cópia da sua pasta de saves: `%APPDATA%\infinitefusion` no Windows.
-4. Baixe o arquivo **`InfiniteFusion2-PTBR-v1.0.0.zip`** na página de [**Releases**](../../releases).
+4. Baixe o arquivo **`InfiniteFusion2-PTBR-v1.1.0.zip`** na página de [**Releases**](../../releases).
 
 > O instalador confere a versão do jogo. Se o seu jogo for de outra versão, ele **não instala nada** e avisa, para não quebrar o jogo.
 

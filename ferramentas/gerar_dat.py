@@ -10,6 +10,7 @@ Entradas:
     ferramentas/mapas_dialogos.json   em qual mapa aparece cada fala (extraído dos .rxdata do jogo)
     traducao/dialogos.tsv             falas dos mapas (ingles<TAB>portugues<TAB>origem)
     traducao/treinadores_e_scripts.tsv falas de treinadores e textos de scripts (secao<TAB>ingles<TAB>portugues)
+    traducao/descricoes.tsv           Pokédex, descrições de itens/habilidades/fitas por ID (secao<TAB>id<TAB>ingles<TAB>portugues)
 
 "⏎" nas tabelas representa uma quebra de linha real.
 """
@@ -26,6 +27,8 @@ from rubymarshal.writer import writes
 ROOT = Path(__file__).resolve().parent.parent
 OUT = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "payload/Data/portuguese.dat"
 SECOES = {"fala_antes_batalha": 15, "fala_derrota": 23, "texto_script": 24}
+SECOES_ID = {"categoria_pokedex": 2, "entrada_pokedex": 3, "descricao_item": 9,
+             "descricao_habilidade": 11, "descricao_fita": 26}
 
 # códigos de controle das mensagens; precisam aparecer igual no inglês e no português
 CODE = re.compile(r'\\[A-Za-z]+\[[^\]]*\]|\\(?:PN|PM|op|cl|wu|wm|wd|G|n|r|b|i|u)|\\[.|!^<>]|\{\d+\}|<[^>]*>')
@@ -102,7 +105,27 @@ for i, (sec, en, pt) in enumerate(tsv(ROOT / "traducao/treinadores_e_scripts.tsv
 for sec, entradas in por_secao.items():
     dat[sec] = mesclar(dat[sec], entradas)
 
+# descrições por ID -> seções 2/3/9/11/26 (lista indexada pelo ID numérico)
+n_desc = 0
+for i, (sec, num, en, pt) in enumerate(tsv(ROOT / "traducao/descricoes.tsv"), 2):
+    if not checar(en, pt, f"descricoes.tsv linha {i}"):
+        continue
+    sec, num = SECOES_ID[sec], int(num)
+    if not isinstance(dat[sec], list):
+        dat[sec] = []
+    while len(dat[sec]) <= num:
+        dat[sec].append(None)
+    dat[sec][num] = RubyString(pt, {"E": True})
+    n_desc += 1
+
+# espaços de largura zero herdados da tradução do Kanto aparecem como lixo na tela
+for sec in SECOES_ID.values():
+    for n, t in enumerate(dat[sec]):
+        if t is not None and "​" in str(t):
+            dat[sec][n] = RubyString(str(t).replace("​", ""), {"E": True})
+
 if erros:
     sys.exit(f"{erros} erro(s) de código de controle; corrija antes de gerar.")
 OUT.write_bytes(writes(dat))
-print(f"OK: {OUT} ({len(dialogos)} falas de mapa, {sum(map(len, por_secao.values()))} de treinadores/scripts)")
+print(f"OK: {OUT} ({len(dialogos)} falas de mapa, {sum(map(len, por_secao.values()))} de treinadores/scripts, "
+      f"{n_desc} descrições por ID)")

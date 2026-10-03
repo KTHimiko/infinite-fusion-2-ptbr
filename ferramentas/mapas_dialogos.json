@@ -12882,5 +12882,49 @@
 {
 "map": 0,
 "en": "Here, I'll heal your Pokémon."
+},
+{
+"map": 78,
+"en": "What would you like to do?"
+},
+{
+"map": 79,
+"en": "What would you like to do?"
+},
+{
+"map": 102,
+"en": "What would you like to do?"
+},
+{
+"map": 101,
+"en": "Which one do you want back?"
+},
+{
+"map": 25,
+"en": "Whoa! You got crazy good!"
+},
+{
+"map": 71,
+"en": "Ah, I still gotta get stronger!"
+},
+{
+"map": 11,
+"en": "Wow! That's great! You're pretty good!"
+},
+{
+"map": 47,
+"en": "Yikes! You're better than I expected!"
+},
+{
+"map": 71,
+"en": "Mauville City up ahead."
+},
+{
+"map": 9,
+"en": "Professor Birch's house"
+},
+{
+"map": 9,
+"en": "\\PN's house"
 }
 ]

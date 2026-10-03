@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 extra_todo.json
 .venv/
+descricoes_todo.tsv
