@@ -11,6 +11,10 @@ Tradução fanmade para **Português do Brasil** do **Pokémon Infinite Fusion 2
 
 > **Importante:** este é um projeto **não oficial**, feito por fã. Não é afiliado, aprovado nem endossado pelos desenvolvedores do Pokémon Infinite Fusion, Nintendo, Game Freak ou The Pokémon Company.
 >
+> **Feita com auxílio de IA:** parte desta tradução (principalmente os textos novos de Hoenn) foi feita com ajuda de inteligência artificial. Pode haver erros ou frases pouco naturais; correções e revisões são muito bem-vindas.
+>
+> **Não divulgue no Discord oficial:** as regras do servidor oficial do Infinite Fusion não permitem compartilhar traduções feitas com IA. Por favor, não poste esta tradução nem peça suporte sobre ela lá. Com a tradução instalada, o suporte técnico do servidor também não atende você até o jogo ser reinstalado.
+>
 > **Sem garantia:** a tradução é oferecida como está, sem garantia de suporte ou de atualizações. Problemas podem ser reportados nas [issues](../../issues), mas não há prazo para correção.
 >
 > **Este repositório não inclui o jogo.** Baixe o Pokémon Infinite Fusion 2 **somente pelo Discord oficial** ([discord.gg/infinitefusion](https://discord.gg/infinitefusion)). Não baixe o jogo de sites aleatórios, vídeos "completo em português" ou reuploads: já foram relatados downloads falsos com malware.
